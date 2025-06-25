@@ -1,0 +1,159 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.General {
+    display: flex;
+    justify-content: center;
+    background-color: pik;
+    width: auto;
+    height: auto;
+}
+.fondo{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    z-index: 1;
+    width: 100%;
+    height: 100vh;
+    transform: translate(-50%, -50%);
+}
+
+.Contenedor1 {
+    z-index: 2;
+    justify-content: center ;
+    text-align: center;
+    width: 70%;
+    height: 100%;
+    background-color: gb(85, 85, 177);
+    position: relative;
+}
+.Contenedor1 .titulo1 {
+    box-shadow: 5px 5px 10px rgba(7, 7, 7, 0.3);
+}
+
+.Espacio1 {
+    border-radius: 25px;
+    justify-content: center;
+    margin: 20px 20px 20px 20px;
+    background-color: aqumarine;
+    width: auto;
+    height: auto;
+    border: 3px solid black;
+}
+
+.Espacio1 .titulo1 {
+    font-size: 40px;
+}
+
+.espacio2 {
+    border-radius: 25px;
+    box-shadow: 5px 5px 10px rgba(7, 7, 7, 0.3);
+    margin: 20px;
+    background-color: re;
+}
+.espacio2 p {
+    font-size: 30px;
+}
+
+.espacio3 {
+    border-radius: 25px;
+    box-shadow: 5px 5px 10px rgba(7, 7, 7, 0.3);
+    margin: 20px;
+    background-color: rebecapure;
+    width: auto;
+    height: auto;
+}
+.espacio3 img {
+    width: 400px;
+}
+.espacio3 p {
+    font-size: 30px;
+}
+.imagen img {
+    width: 170px;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+}
+
+.espacio4 {
+    border-radius: 25px;
+    box-shadow: 5px 5px 10px rgba(7, 7, 7, 0.3);    
+    margin: 20px 20px 20px 20px;
+    background-color: whie;
+}
+.espacio4 p {
+    font-size: 30px;
+
+}
+
+.imagen2 img {
+    width: 170px;
+    position: fixed;
+    top: 0px;
+    left: 40px;
+
+}
+
+.espacio5 {
+    border-radius: 25px;
+    box-shadow: 5px 5px 10px rgba(7, 7, 7, 0.3);
+    margin: 10px 10px 10px 10px;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: gen;
+}
+.espacio5 img{
+    width: 200px;
+    border-radius: 50%;
+}
+.invitacion  {
+    font-size: 20px;
+    padding-top: 30px;
+    background-color: ink;
+    width: 35%;
+    border: 2px solid black;
+
+}
+.enlaces button {
+    position: relative;
+    left: 5px;
+    top: 70px;
+    height: auto;
+    width: auto;
+}
+
+.enlaces {
+    background-color: rb(29, 99, 87);
+    width: auto;
+}
+
+
+.Siguiente {
+    border-radius: 25px;
+    box-shadow: 5px 5px 10px rgba(7, 7, 7, 0.3);
+    display: flex   ;
+    margin: 20px 20px 20px 20px;
+    border: 1px solid black;
+    background-color: transparent;
+}
+.Siguiente img{
+    width: 200px;
+    border-radius: 50%;
+}
+.duda img {
+    width: 300px;
+}
+
+.Preguntapreguntosa button {
+    position: relative;
+    left: 60px;
+    top: 70px;
+    margin: auto;
+    text-align: center;
+    font-size: 20px;
+}
+a{
+    color: black;
+}
